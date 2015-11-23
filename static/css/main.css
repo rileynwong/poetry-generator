@@ -1,0 +1,30 @@
+.header {
+    margin-top: -50px;
+    padding-left: 150px;
+    padding-right: 700px;
+    position: fixed;
+    background: #fff;
+    padding-top: 30px;
+    top: 20px
+}
+
+body {
+    font-family: Courier New
+}
+
+.container {
+    padding-top: 30px;
+    margin-bottom: 200px
+}
+
+#poetry {
+    padding-left: 200px;
+    padding-top: 40px
+}
+
+.footer {
+    display: block;
+    padding-left: 150px;
+    position: fixed; bottom: 0 
+
+}
