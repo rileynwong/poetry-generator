@@ -5,8 +5,6 @@ import random, sys
 from textblob import TextBlob
 from word import Word
 
-#import pi
-
 last_word = ""
 
 def main():
@@ -105,7 +103,7 @@ def get_closest_sentiment_phrase(d, sentiment_val, word):
     return phrase
 
 def get_sentiment_value():
-    return -1.0 # TODO - hook up rpi
+    return 0.0 # neutral sentiment
 
 
 ### Helpers, Configuration, Random
@@ -116,10 +114,9 @@ def rand_num_lines():
 ###
 reload(sys)
 sys.setdefaultencoding('ISO-8859-1')
-NGRAM_SIZE = 5
+NGRAM_SIZE = 4
 
 all_words_dict = {} # dictionary maps word to Word
-
 
 ### Main
 if __name__ == "__main__":
