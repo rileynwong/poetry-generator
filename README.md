@@ -1,10 +1,15 @@
-# poetry-generator
+### poetry-generator
 
-To run:
-- `python app.py`
+##### To run:
+- clone repo
+- run `python app.py`
 - hit up http://localhost:5000/
 
-Sample poem:
+##### Input texts:
+- Gertrude Stein's Tender Buttons
+
+
+##### Sample poem:
 
 ```
 their less happy times 

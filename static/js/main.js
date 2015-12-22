@@ -30,6 +30,4 @@ function generateLine(text) {
 
 var init_text="that nothing is solemn a cow is accepted"
 
-for (i = 0; i < 20; i++) {
-    appendLine(init_text);
-}
+appendLine(init_text);
