@@ -114,7 +114,7 @@ def rand_num_lines():
 ###
 reload(sys)
 sys.setdefaultencoding('ISO-8859-1')
-NGRAM_SIZE = 4
+NGRAM_SIZE = 2
 
 all_words_dict = {} # dictionary maps word to Word
 
