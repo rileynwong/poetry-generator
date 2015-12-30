@@ -1,5 +1,4 @@
 function scrollBottom(){
-    // $("html, body").animate({ scrollTop: $(document).height() }, "fast");
     window.scrollTo(0,document.body.scrollHeight);
 }
 
@@ -27,6 +26,6 @@ function generateLine(text) {
     }, 500);
 })();
 
-var init_text="that nothing is solemn a cow is accepted"
+var init_text="that nothing is\n solemn a cow\n is accepted when"
 
-appendLine(init_text);
+// appendLine(init_text);

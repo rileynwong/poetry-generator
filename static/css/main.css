@@ -1,6 +1,6 @@
 .header {
     margin-top: 180px;
-    padding-left: 102px;
+    padding-left: 130px;
     padding-right: 700px;
     padding-bottom: 13px;
     position: fixed;
@@ -9,7 +9,9 @@
 }
 
 body {
-    font-family: Futura
+    font-family: Futura;
+    color: #E4DBD4;
+    background-color: rgb(33, 39, 43);
 }
 
 .container {
@@ -20,12 +22,22 @@ body {
 
 #poetry {
     padding-left: 200px;
-    padding-top: 40px
+    padding-top: 263px;
 }
 
 .footer {
     display: block;
-    padding-left: 150px;
-    position: fixed; bottom: 0 
+    padding-left: 130px;
+    position: fixed;
+    bottom: 0
+}
 
+/* unvisited link */
+a:link {
+    color: #C56B24;
+}
+
+/* visited link */
+a:visited {
+    color: #B7977E;
 }
