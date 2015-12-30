@@ -19,7 +19,6 @@ function generateLine(text) {
             type: "GET",
             success: function(text) {
                 generateLine(text);
-                console.log(text);
             },
             dataType: "text",
             complete: poll,

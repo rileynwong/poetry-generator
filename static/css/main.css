@@ -1,20 +1,21 @@
 .header {
-    margin-top: -50px;
-    padding-left: 150px;
+    margin-top: 180px;
+    padding-left: 102px;
     padding-right: 700px;
+    padding-bottom: 13px;
     position: fixed;
-    background: #fff;
-    padding-top: 30px;
+    padding-top: 50px;
     top: 20px
 }
 
 body {
-    font-family: Courier New
+    font-family: Futura
 }
 
 .container {
     padding-top: 30px;
-    margin-bottom: 200px
+    padding-left: 90px;
+    margin-bottom: 400px
 }
 
 #poetry {
