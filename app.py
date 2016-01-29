@@ -12,6 +12,7 @@ all_words_dict = {}
 @app.route('/index', methods=['GET'])
 def index():
     global all_words_dict
+    all_words_dict = {}
     all_words_dict = ling.parse_texts()
     print "all words"
     print all_words_dict
