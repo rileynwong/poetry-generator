@@ -1,1 +1,1 @@
-web: python app.py
+web: python -m textblob.download_corpora && python app.py
