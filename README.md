@@ -1,5 +1,6 @@
 ### poetry-generator
-view live [here](http://fountain-out.herokuapp.com)
+View live [here](http://fountain-out.herokuapp.com)
+Fountain Out is a dynamically generated poem that eventually converges to one word. It resets about once a day. You may have to check back every now and then to watch it at different points before it converges. =)
 
 ##### To run:
 - clone repo
