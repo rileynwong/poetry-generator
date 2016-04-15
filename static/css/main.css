@@ -29,7 +29,7 @@ body {
     display: block;
     padding-left: 130px;
     position: fixed;
-    bottom: 0
+    bottom: 30px;
 }
 
 /* unvisited link */
