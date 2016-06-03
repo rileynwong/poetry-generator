@@ -1,4 +1,6 @@
 ## poetry-generator
+
+### Fountain Out - A Dynamically Generated Poem
 View live [here](http://fountain-out.herokuapp.com)
 
 Fountain Out is a dynamically generated poem that eventually converges to one word. It resets about once a day and converges differently each time. You may have to check back every now and then to watch it at different points before it converges, or to see where it converged that day.
@@ -19,9 +21,10 @@ After converging:
 
 #### Input texts:
 - Gertrude Stein's Tender Buttons
-- You can add or modify as many .txt files as you want within the `/texts` directory.
+- You can add or modify as many .txt files as you want within the `/texts` directory. The text files are used as the training corpus.
 
 
+### General Poem Generation
 #### Sample poem:
 
 ```
